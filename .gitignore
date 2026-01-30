@@ -1,0 +1,36 @@
+# Secrets — never commit
+claude.md
+.env
+.env.*
+*.pem
+*.key
+
+# Rust
+target/
+**/*.rs.bk
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# CDK
+cdk/dist/
+cdk.out/
+cdk.context.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Tauri
+desktop/src-tauri/target/
+
+# Build artifacts
+openapi.json

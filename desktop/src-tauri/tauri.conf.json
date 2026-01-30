@@ -1,0 +1,13 @@
+{
+  "build": {
+    "beforeDevCommand": "cd ../web-app && npm run dev",
+    "beforeBuildCommand": "cd ../web-app && npm run build",
+    "devPath": "http://localhost:3000",
+    "distDir": "../web-app/dist"
+  },
+  "package": { "productName": "openduckrust", "version": "0.1.0" },
+  "tauri": {
+    "windows": [{ "title": "OpenDuckRust", "width": 1200, "height": 800 }],
+    "bundle": { "identifier": "com.rocketpowerllc.openduckrust" }
+  }
+}
